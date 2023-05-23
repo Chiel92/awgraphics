@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bearded.Graphics.Examples.01.Basics", "Bearded.Graphics.Examples\01.Basics\Bearded.Graphics.Examples.01.Basics.csproj", "{0B034B46-4E76-449B-8BB4-6C41614678DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bearded.Graphics", "Bearded.Graphics\Bearded.Graphics.csproj", "{5C5A78A0-F12F-431C-9607-67EA4ADF5732}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bearded.Graphics.Examples.02.IndexBuffer", "Bearded.Graphics.Examples\02.IndexBuffer\Bearded.Graphics.Examples.02.IndexBuffer.csproj", "{BEF46AAE-12A3-43C6-95BF-0F1DB2D3D4D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bearded.Graphics.Examples.08.PostProcessing", "Bearded.Graphics.Examples\08.PostProcessing\Bearded.Graphics.Examples.08.PostProcessing.csproj", "{9DE12724-B969-4FD2-AF36-53CF3F0B0002}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bearded.Graphics.Examples.12.Text", "Bearded.Graphics.Examples\12.Text\Bearded.Graphics.Examples.12.Text.csproj", "{CD216E8B-8D00-4CDA-8325-908906520E0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bearded.Graphics.Examples.20.Mandelbrot", "Bearded.Graphics.Examples\20.Mandelbrot\Bearded.Graphics.Examples.20.Mandelbrot.csproj", "{25A39472-3298-4413-9AF3-F5228E62A13A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bearded.Graphics.Examples.03.RenderSettings", "Bearded.Graphics.Examples\03.RenderSettings\Bearded.Graphics.Examples.03.RenderSettings.csproj", "{63136298-DDA9-430D-BCB3-B7043BA39157}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bearded.Graphics.System.Drawing", "Bearded.Graphics.System.Drawing\Bearded.Graphics.System.Drawing.csproj", "{E19E9423-1FF0-42AD-AE29-F31B1D09F4A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bearded.Graphics.SkiaSharp", "Bearded.Graphics.SkiaSharp\Bearded.Graphics.SkiaSharp.csproj", "{AEC25237-3BA0-4E63-AFCE-7DB9A986D55E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bearded.Graphics.ImageSharp", "Bearded.Graphics.ImageSharp\Bearded.Graphics.ImageSharp.csproj", "{D3F4A684-5FDF-48CF-8ED9-4A209D29453A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B034B46-4E76-449B-8BB4-6C41614678DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B034B46-4E76-449B-8BB4-6C41614678DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B034B46-4E76-449B-8BB4-6C41614678DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B034B46-4E76-449B-8BB4-6C41614678DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C5A78A0-F12F-431C-9607-67EA4ADF5732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C5A78A0-F12F-431C-9607-67EA4ADF5732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C5A78A0-F12F-431C-9607-67EA4ADF5732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C5A78A0-F12F-431C-9607-67EA4ADF5732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEF46AAE-12A3-43C6-95BF-0F1DB2D3D4D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEF46AAE-12A3-43C6-95BF-0F1DB2D3D4D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEF46AAE-12A3-43C6-95BF-0F1DB2D3D4D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEF46AAE-12A3-43C6-95BF-0F1DB2D3D4D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DE12724-B969-4FD2-AF36-53CF3F0B0002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DE12724-B969-4FD2-AF36-53CF3F0B0002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DE12724-B969-4FD2-AF36-53CF3F0B0002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DE12724-B969-4FD2-AF36-53CF3F0B0002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD216E8B-8D00-4CDA-8325-908906520E0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD216E8B-8D00-4CDA-8325-908906520E0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD216E8B-8D00-4CDA-8325-908906520E0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD216E8B-8D00-4CDA-8325-908906520E0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25A39472-3298-4413-9AF3-F5228E62A13A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25A39472-3298-4413-9AF3-F5228E62A13A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25A39472-3298-4413-9AF3-F5228E62A13A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25A39472-3298-4413-9AF3-F5228E62A13A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63136298-DDA9-430D-BCB3-B7043BA39157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63136298-DDA9-430D-BCB3-B7043BA39157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63136298-DDA9-430D-BCB3-B7043BA39157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63136298-DDA9-430D-BCB3-B7043BA39157}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E19E9423-1FF0-42AD-AE29-F31B1D09F4A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E19E9423-1FF0-42AD-AE29-F31B1D09F4A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E19E9423-1FF0-42AD-AE29-F31B1D09F4A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E19E9423-1FF0-42AD-AE29-F31B1D09F4A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEC25237-3BA0-4E63-AFCE-7DB9A986D55E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEC25237-3BA0-4E63-AFCE-7DB9A986D55E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEC25237-3BA0-4E63-AFCE-7DB9A986D55E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEC25237-3BA0-4E63-AFCE-7DB9A986D55E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3F4A684-5FDF-48CF-8ED9-4A209D29453A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3F4A684-5FDF-48CF-8ED9-4A209D29453A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3F4A684-5FDF-48CF-8ED9-4A209D29453A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3F4A684-5FDF-48CF-8ED9-4A209D29453A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
